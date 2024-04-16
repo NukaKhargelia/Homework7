@@ -21,13 +21,12 @@ header {
 .logolink {
   display: inline-flex;
 }
-.logolink:hover{
-    transform: rotate(-35deg);
+.logolink:hover {
+  transform: rotate(-35deg);
 }
 .headerUl {
   display: flex;
-  column-gap: calc(48 / 1440 * 100%);
-  justify-content: space-between;
+  column-gap: 48px;
 }
 .headernavli {
   font-family: "Inter", sans-serif;
